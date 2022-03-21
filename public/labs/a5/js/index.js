@@ -1,6 +1,8 @@
 //alert('Hello World!');
 //console.log('Hello World!');
 
+const ewq = [28,107,26,65,95]
+
 console.log('Variables and Constants');
 global1 = 10;
 var functionScoped = 2;

@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import './App.css';
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
             <Route path="/hello" element = {<HelloWorld/>} />
             <Route path="/labs" element = {<Labs/>} />
+            <Route path="/" element = {<Tuiter/>} />
             <Route path="/tuiter1" element = {<Tuiter/>} />
             <Route path="/tuiter/home" element={<HomeScreen/>}/>
             <Route path="/tuiter/explore" element={<ExploreScreen/>}/>

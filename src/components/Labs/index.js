@@ -1,9 +1,9 @@
 import React from "react";
-import Classes from "./Classes";
+import Classes from "./Classes/index.js";
 import {Link} from "react-router-dom";
-import Styles from "./Styles";
-import ConditionalOutput from "./ConditionalOutput";
-import TodoList from "./Todo/TodoList"
+import Styles from "./Styles/index.js";
+import ConditionalOutput from "./ConditionalOutput/index.js";
+import TodoList from "./Todo/TodoList.js"
 
 
 //const Labs = () => {

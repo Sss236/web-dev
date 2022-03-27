@@ -1,4 +1,4 @@
-import WhoToFollowListItem from "./WhoToFollowListItem";
+import WhoToFollowListItem from "./WhoToFollowListItem.js";
 import React from "react";
 import who from "./who.json";
 

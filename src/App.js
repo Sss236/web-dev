@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
-import HelloWorld from "./components/HelloWorld";
-import Labs from "./components/Labs";
-import Tuiter from "./components/Tuiter";
+import HelloWorld from "./components/HelloWorld.js";
+import Labs from "./components/Labs/index.js";
+import Tuiter from "./components/Tuiter/index.js";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomeScreen from "./components/Tuiter/HomeScreen/HomeScreen.js";
 import ExploreScreen from "./components/Tuiter/ExploreScreen/ExploreScreen.js";

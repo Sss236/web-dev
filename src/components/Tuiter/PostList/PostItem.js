@@ -1,5 +1,5 @@
 import React from "react";
-import ImgHandle from "./ImgHandle";
+import ImgHandle from "./ImgHandle.js";
 
 const  PostItem = (
     {

@@ -1,0 +1,36 @@
+.profile-img{
+  width:130px;
+  height:110px;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+}
+
+.edit-banner-icons{
+  z-index: 2;
+  position: relative;
+  left: 40px;
+}
+.edit-profile-title{
+  color: white;
+  font-size: xx-large;
+}
+
+.banner-img{
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.edit-prof-btn{
+  background-color: blue;
+  float: right;
+}
+
+.save-prof-btn{
+  background-color: whitesmoke;
+}
+

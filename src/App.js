@@ -26,7 +26,7 @@ const App = () => {
       <div className="container">
         <Routes>
             <Route path="/labs" element = {<Labs/>} />
-            <Route path="/" element = {<Tuiter/>} />
+            <Route path="/" element = {<HomeScreen/>} />
             <Route path="tuiter" element={<Tuiter />}>
                 <Route path="home" element={<HomeScreen />} />
                 <Route path="explore" element={<ExploreScreen />} />

@@ -11,7 +11,7 @@ const TuitList = () => {
         findAllTuits(dispatch), []);
     return (<div className="list-group">
                 {
-                    tuits.map(t => {
+                    tuits.map && tuits.map(t =>
                         return(
                             <TuitItem data={t}/>
                         );

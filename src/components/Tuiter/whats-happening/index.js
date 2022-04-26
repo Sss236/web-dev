@@ -11,8 +11,7 @@ const WhatsHappening = () => {
             "dislikes":0,
             "likes":0,
             "tuit":whatsHappening,
-            "username":"Me",
-            "_id":"0"
+            "postedBy":{"username" : "Me"},
         };
         createTuit(dispatch,newTuit);
     }
